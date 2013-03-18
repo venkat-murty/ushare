@@ -1,0 +1,7 @@
+*.o
+config.h
+config.log
+config.mak
+po/stamp-po
+src/.depend
+src/ushare

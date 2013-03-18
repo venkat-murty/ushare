@@ -718,7 +718,7 @@ else
   append_config "STRIP=echo ignoring strip"
   append_config "INSTALLSTRIP="
 fi
-append_config "EXTRALIBS=$extralibs"
+append_config "EXTRALIBS=-lintl $extralibs"
 
 append_config "OPTFLAGS=$CFLAGS"
 append_config "LDFLAGS=$LDFLAGS"
